@@ -1,0 +1,24 @@
+import = ["/home/telemakos/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
+
+[font]
+size = 6
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[window.padding]
+x = 8
+y = 4

@@ -1,0 +1,5 @@
+Welcome to my personal dotfile collection. The master branch is my defautl, and each additional branch is a new theme/use.
+
+These dotfiles are managed by GNU Stow. To use stow in this manner, create a `dotfiles` directory, create a folder for each item to be stowed, then inside each directory, create a mirror directory with a path either relative to home, or absolute from root. For example, my `kitty` config lives in `~/.config/kitty` by default, so its stow directory is `~/dotfiles/kitty/.config/kitty/<config files here like normal>/`.
+
+As of stow v2.3.1, there is a bug preventing the `--dotfiles` flag to work. If you are using stow >=v2.4.0, it should be safe to, in the example above, use `~/dotfiles/kitty/dot-config/kitty/<files here>/`. If you are not on or above said version, perform a regular `stow <dir>` for files inside a hidden folder, and a `stow --dotfiles <file>` for hidden files. For example, `~/.zshrc` can be saved as `~/zshrc/zshrc/dot-zshrc`. Running `stow --dotfiles zshrc` will place it at `~/.zshrc` as expected.

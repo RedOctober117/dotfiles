@@ -30,7 +30,7 @@ end
 
 local function bind_netrw()
 	local current_bind = vim.g.current_binding
-	print("Mapping: ", current_bind)
+
 	if current_bind == "miryoku" then
 		bind_miryoku()
 	elseif current_bind == "qwerty" then

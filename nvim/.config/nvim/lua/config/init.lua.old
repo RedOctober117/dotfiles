@@ -1,4 +1,6 @@
 require("configs.miryoku_remap")
+require("configs.trouble")
+require("configs.rose-pine")
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)

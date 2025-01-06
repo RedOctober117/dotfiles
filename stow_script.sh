@@ -1,10 +1,10 @@
 #!zsh
-stow alacritty
-stow i3 
-stow kitty
-stow nvim
-stow picom
-stow polybar
-stow rofi
-stow tmux-sessionizer
-stow zshrc --dotfiles
+stow --dotfiles alacritty
+stow --dotfiles i3 
+stow --dotfiles kitty
+stow --dotfiles nvim
+stow --dotfiles picom
+stow --dotfiles polybar
+stow --dotfiles rofi
+stow --dotfiles tmux-sessionizer
+stow --dotfiles zshrc
